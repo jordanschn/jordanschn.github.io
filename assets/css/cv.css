@@ -1,0 +1,30 @@
+table {
+    width: 80%;
+    border-collapse: collapse; 
+}
+thead {
+    display: none;
+}
+tbody::after
+{
+    content: '';
+    display: table-row;
+    height: 20px;
+}
+td {
+    width: 30%;
+    vertical-align: top;
+}
+table * ul {
+    padding: 0px;
+    margin: 0px;    
+}
+table * ul li {
+    display: inline-block;
+}
+table * ul li:after { 
+    content: "\00a0\00a0\00b7\00a0\00a0"; 
+}
+table * ul li:last-child:after {
+    content: none;
+}

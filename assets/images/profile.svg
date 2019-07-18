@@ -1,0 +1,14 @@
+<svg 
+    version="1.1"
+    baseProfile="full"
+    id="graph" 
+    width="300px" height="300px"
+    xmlns="http://www.w3.org/2000/svg"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+        <defs>
+            <pattern id="profile" x="0%" y="0%" height="100%" width="100%">
+                <image x="0%" y="0%" width="100%" height="100%" xlink:href="profile.jpg"></image>
+            </pattern>
+        </defs>
+    <circle id="sd" class="medium" cx="50%" cy="50%" r="50%" fill="url(#profile)" />
+</svg>

@@ -25,6 +25,9 @@ nav i {
    font-size: 2em;
    padding-right: 5px;
 }
+#menu {
+    font-size: 2em;
+ }
 nav {
     font-size: calc(1em * var(--font-scale));
     margin: 0;
@@ -48,8 +51,8 @@ nav ul {
 }
 
 nav ul li {
-    line-height: 20px;
-    padding: 10px;
+    line-height: 40px;
+    padding: 0px 10px 0px 10px;
 }
 
 nav ul .left {
@@ -69,7 +72,7 @@ nav ul .right li a {
     display: flex;
     align-items: center;
 }
-nav ul #navBarMenu {
+nav ul #navMenu {
     display: none;
     color: white;
 }
@@ -86,7 +89,7 @@ nav a {
     nav ul .left:hover li {
         display: block;
     }
-    nav ul #navBarMenu {
+    nav ul #navMenu {
         display: block;
     }
     .container {
